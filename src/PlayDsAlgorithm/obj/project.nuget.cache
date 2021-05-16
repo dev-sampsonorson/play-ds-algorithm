@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4qwwQeqhvSzJkWkBsmsZ3OkYXTdsKHyIldnMM03bJvYExDKps6ywvmsu2qadT3E4UHJzYNqqeYzsIQvioMU9/w==",
+  "success": true,
+  "projectFilePath": "D:\\WS\\Sandbox\\DotNet\\play-ds-algorithm\\src\\PlayDsAlgorithm\\PlayDsAlgorithm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OrsonXeon\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\OrsonXeon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\OrsonXeon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

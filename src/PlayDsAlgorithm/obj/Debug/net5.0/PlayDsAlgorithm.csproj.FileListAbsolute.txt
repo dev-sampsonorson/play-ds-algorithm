@@ -1,0 +1,16 @@
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\bin\Debug\net5.0\PlayDsAlgorithm.exe
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\bin\Debug\net5.0\PlayDsAlgorithm.deps.json
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\bin\Debug\net5.0\PlayDsAlgorithm.runtimeconfig.json
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\bin\Debug\net5.0\PlayDsAlgorithm.runtimeconfig.dev.json
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\bin\Debug\net5.0\PlayDsAlgorithm.dll
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\bin\Debug\net5.0\ref\PlayDsAlgorithm.dll
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\bin\Debug\net5.0\PlayDsAlgorithm.pdb
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.csprojAssemblyReference.cache
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.AssemblyInfoInputs.cache
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.AssemblyInfo.cs
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.csproj.CoreCompileInputs.cache
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.dll
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\ref\PlayDsAlgorithm.dll
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.pdb
+D:\WS\Sandbox\DotNet\play-ds-algorithm\src\PlayDsAlgorithm\obj\Debug\net5.0\PlayDsAlgorithm.genruntimeconfig.cache
