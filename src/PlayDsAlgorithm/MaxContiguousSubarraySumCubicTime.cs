@@ -4,6 +4,7 @@ using PlayDsAlgorithm.Core;
 namespace PlayDsAlgorithm {
     public class MaxContiguousSubarraySumCubicTime : ISolution
     {
+        public static int Id = 4;
         public string Description => throw new System.NotImplementedException();
 
         int[] input = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };

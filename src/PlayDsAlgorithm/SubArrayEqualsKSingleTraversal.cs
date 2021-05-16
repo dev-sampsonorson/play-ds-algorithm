@@ -6,6 +6,7 @@ namespace PlayDsAlgorithm
 {
     public class SubArrayEqualsKSingleTraversal : ISolution
     {
+        public static int Id = 3;
         public string Description => "";
 
         int[] input = new int[] { 3, 4, 7, 2, -3, 1, 4, 2, 1 };

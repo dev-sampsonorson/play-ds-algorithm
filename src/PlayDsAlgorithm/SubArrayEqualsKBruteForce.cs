@@ -5,6 +5,8 @@ namespace PlayDsAlgorithm
 {
     public class SubArrayEqualsKBruteForce : ISolution
     {
+        public static int Id = 1;
+        
         public string Description => "Subarray sum equals K - Brute Force";
 
         int[] input = new int[] { 3, 4, 7, 2, -3, 1, 4, 2 };
