@@ -4,31 +4,29 @@ using System.Collections.Generic;
 using PlayDsAlgorithm.Core;
 
 namespace PlayDsAlgorithm {
-    public class MinimumWindowSubstringBruteForce : ISolution
-    {
-        public static int Id = 5; 
+    public class MinimumWindowSubstringBruteForce : ISolution {
+        public static int Id = 5;
         public string Description => "";
 
-        public void Run()
-        {
-             /* string searchString = "adobecodebanc";
-             string characterString = "abcz"; */
-             
-             /* string searchString = "donutsandwafflemakemehungry";
-             string characterString = "flea"; */
-             
-             /* string searchString = "whoopiepiesmakemyscalegroan";
-             string characterString = "roam"; */
-             
-             string searchString = "coffeeteabiscuits";
-             string characterString = "cake";
+        public void Run() {
+            /* string searchString = "adobecodebanc";
+            string characterString = "abcz"; */
 
-             int n = searchString.Length;
-             int minWindowLength = Int32.MaxValue;
+            /* string searchString = "donutsandwafflemakemehungry";
+            string characterString = "flea"; */
+
+            /* string searchString = "whoopiepiesmakemyscalegroan";
+            string characterString = "roam"; */
+
+            string searchString = "coffeeteabiscuits";
+            string characterString = "cake";
+
+            int n = searchString.Length;
+            int minWindowLength = Int32.MaxValue;
             //  int minWindowSize = characterString.Length;
 
-                    // converts char string to map
-                    IDictionary<char, int> charMap = ConvertToMap(characterString);
+            // converts char string to map
+            IDictionary<char, int> charMap = ConvertToMap(characterString);
 
             for (int l = 0; l < n; l++) {
                 for (int r = l; r < n; r++) {
@@ -37,15 +35,16 @@ namespace PlayDsAlgorithm {
                     int windowLength = (r - l) + 1;
                     IDictionary<char, int> windowMap = ConvertToMap(searchString.Substring(l, windowLength));
 
-                    int nFound = 0;
-                    foreach(var pair in charMap) {
+                    bool satisfy = false;
+                    for (int i = 0; i < charMap.Count; i++) {
+                        var pair = charMap.ElementAt(i);
                         if (!windowMap.ContainsKey(pair.Key) || windowMap[pair.Key] < pair.Value) break;
 
-                        nFound += 1;
+                        satisfy = i + 1 == charMap.Count;
                     }
 
-                    if (nFound == charMap.Count)
-                        minWindowLength = Math.Min(minWindowLength, windowLength);
+                    // if current window satisfies, check if min window length
+                    if (satisfy) minWindowLength = Math.Min(minWindowLength, windowLength);
                 }
             }
 
@@ -56,15 +55,15 @@ namespace PlayDsAlgorithm {
 
         private IDictionary<char, int> ConvertToMap(string value) {
             IDictionary<char, int> map = new Dictionary<char, int>();
-                    for (int i = 0; i < value.Length; i++) {
-                        if (map.ContainsKey(value[i])) {
-                            map[value[i]] += 1;
-                        } else {
-                            map.Add(value[i], 1);
-                        }
-                    }
+            for (int i = 0; i < value.Length; i++) {
+                if (map.ContainsKey(value[i])) {
+                    map[value[i]] += 1;
+                } else {
+                    map.Add(value[i], 1);
+                }
+            }
 
-                    return map;  
+            return map;
         }
     }
 }
