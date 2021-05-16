@@ -1,5 +1,13 @@
 # Playing with Data Structures and Algorithms
 
+### When Optimizing an Algorithm
+
+1. Think of the bottlenecks
+2. Unnecessary work
+3. Duplicate work
+
+[Cracking the Coding Interview by Gayle Laakmann McDowell](https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview)
+
 ### Solutions
 
 1. [Sub array equals K (Brute Force)](src/PlayDsAlgorithm/SubArrayEqualsKBruteForce.cs)
